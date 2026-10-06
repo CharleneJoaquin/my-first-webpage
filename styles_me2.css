@@ -8,17 +8,18 @@
     margin-right: auto;
     padding: 50px;
     width: 900px;
-
+    text-align: center;
 }
 
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
     color: black;
     font-weight: bold;
     text-align: center;
+    /*used for the Header text above the table*/
 }
 
 .tableHeader, .tableFooter {
@@ -37,6 +38,11 @@ body {
     background-color: white;
 }
 
+.infoLeft {
+    /*for info I want aligned to the left instead of center*/
+    text-align: left;
+}
+
 .underline {
     text-decoration: underline;
     /*used instead of <ins> </ins>*/
@@ -51,6 +57,7 @@ p {
     margin: 10px;
 }
 
+/*Pseudo classes on the gitHub link in L-V-H-A order*/
 .tableFooter a:link {
     color: rgb(145, 126, 255);
 }

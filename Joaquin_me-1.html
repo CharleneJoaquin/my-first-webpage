@@ -21,15 +21,16 @@
                     <td class="info">
                         <img src="PersonalPhoto.jpeg" width="180" height="240"/>
                     </td>
-                    <td class="info">
+                    <td class="infoLeft">
                         <p><b>Fullname: </b>Charlene Anne Palapas Joaquin</p>
                         <p><b>Birthday: </b>September 13, 2006</p>
                         <p><b>Status: </b> Student</p>
+                        <!--I chose to keep the <b> </b> because it is still used in html AND because the bold words holds significance and not just for visual purposes-->
                     </td>
                 </tr>
                 <tr>
                     <th class="label">Hobbies</th>
-                    <td class = "info"><ul>
+                    <td class = "infoLeft"><ul>
                         <li>matulog</li>
                         <li>listen to music</li>
                         <li>trying new things</li>
@@ -37,7 +38,7 @@
                 </tr>
                 <tr>
                     <th class="label">Top 3 Movies</th>
-                    <td class="info"><ol>
+                    <td class="infoLeft"><ol>
                         <li>Hadestown (2026)</li>
                         <li>Next to Normal (2025)</li>
                         <li>La la land (2016)</li>
@@ -52,9 +53,9 @@
                 <tr>
                     <th class="label">Fun fact</th>
                     <td class="info">
-                        <p>I like trying many different things to see if it is a</p>
-                        <p class = underline> </p>
-                        <p> of mine. ♡</p>
+                        <p>I like trying many different things to see if it is a <span class = underline> potential hobby </span> of mine. ♡</p>
+                        <!--I want the underline in this part to be purely visual, so I chose to use CSS classes instead of <ins> </ins>-->
+                        <!-- span is used so that the sentence won't have a line break as opposed to using <p class = "underline"> </p> for the underlined words-->
                     </td>
                 </tr>
                 <tr>
