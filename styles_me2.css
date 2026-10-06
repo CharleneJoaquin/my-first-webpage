@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+#PersonalProfileTable {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    width: 900px;
+
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.header {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableHeader, .tableFooter {
+    background-color: #6D538A;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.label {
+    background-color: #B098D4;
+    font-weight: bold;
+}
+
+.info {
+    background-color: white;
+}
+
+.underline {
+    text-decoration: underline;
+    /*used instead of <ins> </ins>*/
+}
+
+th, td {
+    border: 1.5px solid rgb(24, 0, 65);
+    padding: 20px;
+}
+
+p {
+    margin: 10px;
+}
+
+.tableFooter a:link {
+    color: rgb(145, 126, 255);
+}
+
+.tableFooter a:visited {
+    color: rgb(30, 28, 43);
+}
+
+.tableFooter a:hover {
+    color: rgb(70, 49, 185);
+}
+
+.tableFooter a:active {
+    color: rgb(244, 244, 247);
+}
